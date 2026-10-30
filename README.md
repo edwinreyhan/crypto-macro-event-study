@@ -40,6 +40,18 @@ python -m crypto_events.download BTCUSDT --month 2020-01      # one monthly file
 Files go to `data/raw/klines/interval=1m/symbol=<SYMBOL>/`, unchanged, and are checked against
 Binance's SHA-256 checksum. Files already downloaded and verified are skipped. `data/` is never committed.
 
+## Events
+
+[`seeds/events.csv`](seeds/events.csv): the macro events studied, one row each, with an official source link.
+
+| Type | Time | Covered |
+| --- | --- | --- |
+| US CPI release (BLS) | 8:30 a.m. New York | 2024–2025 (23 releases; October 2025 was cancelled) |
+| FOMC decision (Federal Reserve) | 2:00 p.m. New York | 2024–2025 (16 meetings) |
+
+Each row keeps the local time and its time zone, plus the same moment in UTC; `crypto_events.events.load_events()`
+checks that they match, so daylight-saving mistakes fail the tests.
+
 ## License
 
 MIT
