@@ -52,6 +52,20 @@ Binance's SHA-256 checksum. Files already downloaded and verified are skipped. `
 Each row keeps the local time and its time zone, plus the same moment in UTC; `crypto_events.events.load_events()`
 checks that they match, so daylight-saving mistakes fail the tests.
 
+## Symbols
+
+[`seeds/symbols.csv`](seeds/symbols.csv): the 20 coins studied. Rebuild it with:
+
+```bash
+python -m crypto_events.symbols --last-month 2026-09
+```
+
+How they're picked: from a list of long-listed USDT pairs, drop stablecoins, keep pairs with data in 2020-01 **and**
+in the last month (still trading), then rank by total USDT traded in 2025 (from Binance daily candles) and keep the top 20.
+
+Known limits: the candidate list is hand-made (a coin missing from it can't be picked), and keeping only coins that
+still trade today adds **survivorship bias** (coins that failed after 2020 are left out).
+
 ## License
 
 MIT
