@@ -94,11 +94,16 @@ def download_daily(
 
 
 def download_monthly(
-    symbol: str, year: int, month: int, root: Path = DEFAULT_ROOT, fetch: Fetch = http_get
+    symbol: str,
+    year: int,
+    month: int,
+    root: Path = DEFAULT_ROOT,
+    fetch: Fetch = http_get,
+    interval: str = "1m",
 ) -> Path:
-    name = monthly_file_name(symbol, year, month)
-    dest = local_path(root, symbol, name)
-    download_file(kline_url(symbol, name, "monthly"), dest, fetch)
+    name = monthly_file_name(symbol, year, month, interval)
+    dest = local_path(root, symbol, name, interval)
+    download_file(kline_url(symbol, name, "monthly", interval), dest, fetch)
     return dest
 
 
