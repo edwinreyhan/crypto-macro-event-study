@@ -19,10 +19,13 @@ Target cost: under $10/month.
 
 ## Development
 
+Needs Python 3.11+ and Java 17+ (Spark runs on the JVM).
+
 ```bash
 python -m venv .venv && source .venv/bin/activate
 pip install -e ".[dev]"
-pytest
+pytest          # tests run in UTC, whatever your machine's time zone
+ruff check .    # lint
 ```
 
 ## License
