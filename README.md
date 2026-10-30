@@ -30,6 +30,16 @@ pytest          # tests run in UTC, whatever your machine's time zone
 ruff check .    # lint
 ```
 
+## Download raw data
+
+```bash
+python -m crypto_events.download BTCUSDT --day 2026-10-29     # one daily file
+python -m crypto_events.download BTCUSDT --month 2020-01      # one monthly file (for backfills)
+```
+
+Files go to `data/raw/klines/interval=1m/symbol=<SYMBOL>/`, unchanged, and are checked against
+Binance's SHA-256 checksum. Files already downloaded and verified are skipped. `data/` is never committed.
+
 ## License
 
 MIT
