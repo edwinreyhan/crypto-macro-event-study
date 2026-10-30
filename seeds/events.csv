@@ -1,0 +1,40 @@
+event_id,type,country,announced_at_local,tz,announced_at_utc,time_precision,decision,source_url,notes
+cpi-2024-01-11,CPI,US,2024-01-11T08:30:00,America/New_York,2024-01-11T13:30:00Z,minute,,https://www.bls.gov/schedule/2024/home.htm,CPI for 2023-12
+fomc-2024-01-31,FOMC,US,2024-01-31T14:00:00,America/New_York,2024-01-31T19:00:00Z,minute,hold,https://www.federalreserve.gov/newsevents/pressreleases/monetary20240131a.htm,
+cpi-2024-02-13,CPI,US,2024-02-13T08:30:00,America/New_York,2024-02-13T13:30:00Z,minute,,https://www.bls.gov/schedule/2024/home.htm,CPI for 2024-01
+cpi-2024-03-12,CPI,US,2024-03-12T08:30:00,America/New_York,2024-03-12T12:30:00Z,minute,,https://www.bls.gov/schedule/2024/home.htm,CPI for 2024-02
+fomc-2024-03-20,FOMC,US,2024-03-20T14:00:00,America/New_York,2024-03-20T18:00:00Z,minute,hold,https://www.federalreserve.gov/newsevents/pressreleases/monetary20240320a.htm,
+cpi-2024-04-10,CPI,US,2024-04-10T08:30:00,America/New_York,2024-04-10T12:30:00Z,minute,,https://www.bls.gov/schedule/2024/home.htm,CPI for 2024-03
+fomc-2024-05-01,FOMC,US,2024-05-01T14:00:00,America/New_York,2024-05-01T18:00:00Z,minute,hold,https://www.federalreserve.gov/newsevents/pressreleases/monetary20240501a.htm,
+cpi-2024-05-15,CPI,US,2024-05-15T08:30:00,America/New_York,2024-05-15T12:30:00Z,minute,,https://www.bls.gov/schedule/2024/home.htm,CPI for 2024-04
+cpi-2024-06-12,CPI,US,2024-06-12T08:30:00,America/New_York,2024-06-12T12:30:00Z,minute,,https://www.bls.gov/schedule/2024/home.htm,CPI for 2024-05
+fomc-2024-06-12,FOMC,US,2024-06-12T14:00:00,America/New_York,2024-06-12T18:00:00Z,minute,hold,https://www.federalreserve.gov/newsevents/pressreleases/monetary20240612a.htm,
+cpi-2024-07-11,CPI,US,2024-07-11T08:30:00,America/New_York,2024-07-11T12:30:00Z,minute,,https://www.bls.gov/schedule/2024/home.htm,CPI for 2024-06
+fomc-2024-07-31,FOMC,US,2024-07-31T14:00:00,America/New_York,2024-07-31T18:00:00Z,minute,hold,https://www.federalreserve.gov/newsevents/pressreleases/monetary20240731a.htm,
+cpi-2024-08-14,CPI,US,2024-08-14T08:30:00,America/New_York,2024-08-14T12:30:00Z,minute,,https://www.bls.gov/schedule/2024/home.htm,CPI for 2024-07
+cpi-2024-09-11,CPI,US,2024-09-11T08:30:00,America/New_York,2024-09-11T12:30:00Z,minute,,https://www.bls.gov/schedule/2024/home.htm,CPI for 2024-08
+fomc-2024-09-18,FOMC,US,2024-09-18T14:00:00,America/New_York,2024-09-18T18:00:00Z,minute,cut,https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm,
+cpi-2024-10-10,CPI,US,2024-10-10T08:30:00,America/New_York,2024-10-10T12:30:00Z,minute,,https://www.bls.gov/schedule/2024/home.htm,CPI for 2024-09
+fomc-2024-11-07,FOMC,US,2024-11-07T14:00:00,America/New_York,2024-11-07T19:00:00Z,minute,cut,https://www.federalreserve.gov/newsevents/pressreleases/monetary20241107a.htm,
+cpi-2024-11-13,CPI,US,2024-11-13T08:30:00,America/New_York,2024-11-13T13:30:00Z,minute,,https://www.bls.gov/schedule/2024/home.htm,CPI for 2024-10
+cpi-2024-12-11,CPI,US,2024-12-11T08:30:00,America/New_York,2024-12-11T13:30:00Z,minute,,https://www.bls.gov/schedule/2024/home.htm,CPI for 2024-11
+fomc-2024-12-18,FOMC,US,2024-12-18T14:00:00,America/New_York,2024-12-18T19:00:00Z,minute,cut,https://www.federalreserve.gov/newsevents/pressreleases/monetary20241218a.htm,
+cpi-2025-01-15,CPI,US,2025-01-15T08:30:00,America/New_York,2025-01-15T13:30:00Z,minute,,https://www.bls.gov/schedule/2025/home.htm,CPI for 2024-12
+fomc-2025-01-29,FOMC,US,2025-01-29T14:00:00,America/New_York,2025-01-29T19:00:00Z,minute,hold,https://www.federalreserve.gov/newsevents/pressreleases/monetary20250129a.htm,
+cpi-2025-02-12,CPI,US,2025-02-12T08:30:00,America/New_York,2025-02-12T13:30:00Z,minute,,https://www.bls.gov/schedule/2025/home.htm,CPI for 2025-01
+cpi-2025-03-12,CPI,US,2025-03-12T08:30:00,America/New_York,2025-03-12T12:30:00Z,minute,,https://www.bls.gov/schedule/2025/home.htm,CPI for 2025-02
+fomc-2025-03-19,FOMC,US,2025-03-19T14:00:00,America/New_York,2025-03-19T18:00:00Z,minute,hold,https://www.federalreserve.gov/newsevents/pressreleases/monetary20250319a.htm,
+cpi-2025-04-10,CPI,US,2025-04-10T08:30:00,America/New_York,2025-04-10T12:30:00Z,minute,,https://www.bls.gov/schedule/2025/home.htm,CPI for 2025-03
+fomc-2025-05-07,FOMC,US,2025-05-07T14:00:00,America/New_York,2025-05-07T18:00:00Z,minute,hold,https://www.federalreserve.gov/newsevents/pressreleases/monetary20250507a.htm,
+cpi-2025-05-13,CPI,US,2025-05-13T08:30:00,America/New_York,2025-05-13T12:30:00Z,minute,,https://www.bls.gov/schedule/2025/home.htm,CPI for 2025-04
+cpi-2025-06-11,CPI,US,2025-06-11T08:30:00,America/New_York,2025-06-11T12:30:00Z,minute,,https://www.bls.gov/schedule/2025/home.htm,CPI for 2025-05
+fomc-2025-06-18,FOMC,US,2025-06-18T14:00:00,America/New_York,2025-06-18T18:00:00Z,minute,hold,https://www.federalreserve.gov/newsevents/pressreleases/monetary20250618a.htm,
+cpi-2025-07-15,CPI,US,2025-07-15T08:30:00,America/New_York,2025-07-15T12:30:00Z,minute,,https://www.bls.gov/schedule/2025/home.htm,CPI for 2025-06
+fomc-2025-07-30,FOMC,US,2025-07-30T14:00:00,America/New_York,2025-07-30T18:00:00Z,minute,hold,https://www.federalreserve.gov/newsevents/pressreleases/monetary20250730a.htm,
+cpi-2025-08-12,CPI,US,2025-08-12T08:30:00,America/New_York,2025-08-12T12:30:00Z,minute,,https://www.bls.gov/schedule/2025/home.htm,CPI for 2025-07
+cpi-2025-09-11,CPI,US,2025-09-11T08:30:00,America/New_York,2025-09-11T12:30:00Z,minute,,https://www.bls.gov/schedule/2025/home.htm,CPI for 2025-08
+fomc-2025-09-17,FOMC,US,2025-09-17T14:00:00,America/New_York,2025-09-17T18:00:00Z,minute,cut,https://www.federalreserve.gov/newsevents/pressreleases/monetary20250917a.htm,
+cpi-2025-10-24,CPI,US,2025-10-24T08:30:00,America/New_York,2025-10-24T12:30:00Z,minute,,https://www.bls.gov/bls/092025-cpi-reschedule-notice.htm,CPI for 2025-09; moved from 2025-10-15 (government shutdown)
+fomc-2025-10-29,FOMC,US,2025-10-29T14:00:00,America/New_York,2025-10-29T18:00:00Z,minute,cut,https://www.federalreserve.gov/newsevents/pressreleases/monetary20251029a.htm,
+fomc-2025-12-10,FOMC,US,2025-12-10T14:00:00,America/New_York,2025-12-10T19:00:00Z,minute,cut,https://www.federalreserve.gov/newsevents/pressreleases/monetary20251210a.htm,
+cpi-2025-12-18,CPI,US,2025-12-18T08:30:00,America/New_York,2025-12-18T13:30:00Z,minute,,https://www.bls.gov/bls/2025-lapse-revised-release-dates.htm,CPI for 2025-11; moved from 2025-12-10; October 2025 CPI was cancelled
