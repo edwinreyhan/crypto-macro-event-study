@@ -1,5 +1,7 @@
 # crypto-macro-event-study
 
+[![CI](https://github.com/edwinreyhan/crypto-macro-event-study/actions/workflows/ci.yml/badge.svg)](https://github.com/edwinreyhan/crypto-macro-event-study/actions/workflows/ci.yml)
+
 How do crypto prices react, minute by minute, to US inflation (CPI) releases and Fed (FOMC) decisions?
 This project runs an **event study** on years of 1-minute price data with **PySpark**, **Delta Lake**, and **AWS**,
 with an extra section on Bank Indonesia rate decisions and prices in IDR.
